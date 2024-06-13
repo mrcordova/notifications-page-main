@@ -15,13 +15,17 @@ body {
   height: 100vh;
   height: 100dvh;
   display: grid;
-  place-content: center;
+  place-content: safe center;
 
   background-color: var(--very-light-grayish-blue);
 }
 
 main {
+  height: 100%;
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .notifications {
