@@ -43,6 +43,12 @@ main {
   gap: 1rem;
 }
 
+.chess-img:hover {
+  cursor: pointer;
+  border: 3px solid var(--light-grayish-blue-2);
+  border-radius: 10px;
+}
+
 .notifications {
   display: flex;
   margin-inline: 1rem 1rem;
