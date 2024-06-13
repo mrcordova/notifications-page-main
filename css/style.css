@@ -89,6 +89,11 @@ main {
   font-size: 0.89rem;
 }
 
+.notifications-event:hover {
+  cursor: pointer;
+  color: var(--blue);
+}
+
 .notifications-paras > p {
   color: var(--dark-grayish-blue);
 }
