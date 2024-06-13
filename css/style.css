@@ -58,6 +58,13 @@ main {
   /* width: 5rem; */
   height: 2.5rem;
 }
+
+.notifications-linking {
+  color: var(--blue);
+}
+.notifications-linking:hover {
+  cursor: pointer;
+}
 .notifications-not-read {
   background-color: var(--very-light-grayish-blue);
 }
@@ -71,6 +78,10 @@ main {
 .notifications-mark-all-btn {
   font-size: 0.88rem;
   color: var(--dark-grayish-blue);
+}
+.notifications-mark-all-btn:hover {
+  cursor: pointer;
+  color: var(--blue);
 }
 
 .notifications-paras {
@@ -86,6 +97,10 @@ main {
 }
 .notifications-paras > p > strong {
   color: var(--very-dark-blue);
+}
+.notifications-paras > p > strong:hover {
+  cursor: pointer;
+  color: var(--blue);
 }
 
 .notifications-title {
