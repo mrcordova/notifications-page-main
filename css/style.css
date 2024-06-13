@@ -11,6 +11,19 @@
   --very-dark-blue: hsl(224, 21%, 14%);
 }
 
+.plus-jakarta-sans-500 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.plus-jakarta-sans-800 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
 body {
   height: 100vh;
   height: 100dvh;
@@ -28,13 +41,27 @@ main {
   justify-content: center;
 }
 
+.notifications {
+  display: flex;
+}
+.notifications-title {
+  font-size: 1.25rem;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
 .notifications-title-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  padding-inline: 1rem;
 }
 
-.notifications {
-  display: flex;
-  /* flex-wrap: wrap; */
+.notifications-title-number {
+  color: var(--white);
+  background-color: var(--very-dark-blue);
+  padding-inline: 0.7rem;
+  font-size: 1rem;
+  border-radius: 0.3rem;
 }
