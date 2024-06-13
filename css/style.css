@@ -39,15 +39,28 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  gap: 1rem;
 }
 
 .notifications {
   display: flex;
+  margin-inline: 2rem 1.7rem;
 }
 
+.notifications > img {
+  /* width: 5rem; */
+  height: 2.5rem;
+}
+.notifications-not-read {
+  background-color: var(--very-light-grayish-blue);
+}
 .notifications-mark-all-btn {
   font-size: 0.88rem;
   color: var(--dark-grayish-blue);
+}
+
+.notifications-paras {
 }
 .notifications-title {
   font-size: 1.25rem;
