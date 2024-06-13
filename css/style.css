@@ -28,8 +28,13 @@ main {
   justify-content: center;
 }
 
-.notifications {
+.notifications-title-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.notifications {
+  display: flex;
+  /* flex-wrap: wrap; */
 }
