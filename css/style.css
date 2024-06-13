@@ -61,6 +61,13 @@ main {
 .notifications-not-read {
   background-color: var(--very-light-grayish-blue);
 }
+.notifications-not-read-symbol {
+  display: inline-block;
+  background-color: var(--red);
+  border-radius: 20px;
+  width: 0.5rem;
+  height: 0.5rem;
+}
 .notifications-mark-all-btn {
   font-size: 0.88rem;
   color: var(--dark-grayish-blue);
@@ -68,10 +75,17 @@ main {
 
 .notifications-paras {
   max-width: 25ch;
-  font-size: 0.88rem;
+  font-size: 0.89rem;
 }
 
+.notifications-paras > p {
+  color: var(--dark-grayish-blue);
+}
+.notifications-paras > p:nth-child(2 of p) {
+  color: var(--grayish-blue);
+}
 .notifications-paras > p > strong {
+  color: var(--very-dark-blue);
 }
 
 .notifications-title {
