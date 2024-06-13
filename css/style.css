@@ -44,6 +44,11 @@ main {
 .notifications {
   display: flex;
 }
+
+.notifications-mark-all-btn {
+  font-size: 0.88rem;
+  color: var(--dark-grayish-blue);
+}
 .notifications-title {
   font-size: 1.25rem;
   display: flex;
@@ -60,7 +65,7 @@ main {
 
 .notifications-title-number {
   color: var(--white);
-  background-color: var(--very-dark-blue);
+  background-color: var(--blue);
   padding-inline: 0.7rem;
   font-size: 1rem;
   border-radius: 0.3rem;
