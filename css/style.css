@@ -27,26 +27,41 @@
 body {
   height: 100vh;
   height: 100dvh;
-  height: 100%;
+  /* height: 100%; */
 
   display: grid;
   place-content: safe center;
 
   background-color: var(--very-light-grayish-blue);
+
+  /* margin-block: 2rem; */
 }
 
 main {
+  height: 100vh;
+  height: 100dvh;
   height: 100%;
 
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 0.4rem;
-  padding-block: 1.4rem;
+  justify-content: flex-start;
+  /* padding-block: 1.4rem; */
+  /* gap: 0.4rem; */
 
   /* Desktop */
-  inline-size: 45.4rem;
+  padding-inline: 1.8rem;
+  padding-block: 0rem;
+  justify-content: space-between;
+  /* padding-block: 1.4rem; */
+  /* block-size: 52.5rem; */
+  max-inline-size: 45rem;
+  gap: 0.5rem;
+}
+
+.chess-img {
+  /* Desktop */
+  margin-inline-start: auto;
 }
 
 .chess-img:hover {
@@ -57,14 +72,22 @@ main {
 
 .notifications {
   display: flex;
-  margin-inline: 0.5rem;
-  padding-inline: 0.95rem 0.8rem;
-  padding-block: 1.1rem;
-  /* flex: 1; */
+  align-items: flex-start;
+
+  /* Mobile */
+  /* margin-inline: 0.5rem; */
+  /* padding-inline: 0.95rem 0.8rem; */
+  /* padding-block: 1.1rem; */
+  /* line-height: 1.38; */
+  /* border-radius: 15px; */
+  /* gap: 0.9rem; */
+  /* Desktop */
+  /* margin-inline: 0.5rem; */
+  padding-inline: 1.5rem;
+  padding-block: 1.3rem;
   line-height: 1.38;
-  /* border: 1px solid rebeccapurple; */
   border-radius: 15px;
-  gap: 0.9rem;
+  gap: 1rem;
 }
 
 .notifications > img {
@@ -92,7 +115,10 @@ main {
   height: 0.5rem;
 }
 .notifications-mark-all-btn {
-  font-size: 0.88rem;
+  /* Mobile */
+  /* font-size: 0.88rem; */
+  /* Desktop */
+  font-size: 0.95rem;
   color: var(--dark-grayish-blue);
 }
 .notifications-mark-all-btn:hover {
@@ -101,8 +127,10 @@ main {
 }
 
 .notifications-paras {
-  /* max-width: 28ch; */
-  font-size: 0.865rem;
+  /* Mobile */
+  /* font-size: 0.865rem; */
+  /* Desktop */
+  font-size: 1rem;
 }
 
 .notifications-event:hover {
@@ -125,18 +153,27 @@ main {
 }
 
 .notifications-title {
-  font-size: 1.25rem;
   display: flex;
-  gap: 0.6rem;
   align-items: center;
+  /* Mobi1e */
+  /* font-size: 1.25rem; */
+  /* gap: 0.6rem; */
+  /* Desktop */
+  font-size: 1.5rem;
+  gap: 0.6rem;
 }
 .notifications-title-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  padding-inline: 0.5rem;
-  margin-block-end: 0.8rem;
+  /* Mobile */
+  /* padding-inline: 0.5rem; */
+  /* margin-block-end: 0.8rem; */
+
+  /* Desktop */
+  /* padding-inline: 1.5rem; */
+  margin-block-start: 1.2rem;
 }
 
 .notifications-title-number {
