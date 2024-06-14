@@ -38,9 +38,11 @@ main {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
+  justify-content: safe center;
+  /* flex: 1; */
   gap: 1rem;
+
+  margin-block: 0.7rem;
 }
 
 .chess-img:hover {
@@ -55,6 +57,7 @@ main {
   padding-inline-start: 1rem;
   padding-block: 1rem 1rem;
 
+  line-height: 1.35;
   /* border: 1px solid rebeccapurple; */
   border-radius: 15px;
   gap: 0.75rem;
@@ -73,10 +76,13 @@ main {
 }
 .notifications-not-read {
   background-color: var(--very-light-grayish-blue);
+  /* background-color: red; */
+  border: 1px solid red;
 }
 .notifications-not-read-symbol {
   display: inline-block;
   background-color: var(--red);
+  /* margin-block-end: 0.1rem; */
   border-radius: 20px;
   width: 0.5rem;
   height: 0.5rem;
@@ -125,7 +131,7 @@ main {
   align-items: center;
   justify-content: space-between;
 
-  padding-inline: 1rem;
+  padding-inline: 0.5rem;
 }
 
 .notifications-title-number {
@@ -140,6 +146,7 @@ main {
   padding-block: 1.5rem;
   border-radius: 8px;
   line-height: 1.25;
+  border: 1px solid var(--light-grayish-blue-1);
 }
 .message-para:hover {
   background-color: var(--light-grayish-blue-1);
